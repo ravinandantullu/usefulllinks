@@ -1,0 +1,4 @@
+# Angular update link
+    https://update.angular.io/
+# Angular cheet sheet
+    https://angular.io/guide/cheatsheet
