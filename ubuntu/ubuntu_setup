@@ -1,0 +1,20 @@
+sudo apt update
+sudo apt install xrdp -y
+sudo systemctl status xrdp
+
+Change the port for remote desktop connection:
+sudo nano /etc/xrdp/xrdp.ini
+port=49952
+sudo systemctl restart xrdp
+
+Enable the UFW if its not enabled
+sudo ufw status
+sudo ufw allow 49952/tcp
+sudo ufw reload
+
+Now go to windows
+Remote desktop connection
+  Ip_address:portNumber
+
+get Ip address using 
+  ip a

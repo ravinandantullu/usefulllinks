@@ -1,0 +1,20 @@
+Update on the angular learning:
+  --> Testing Jasmine, Protractor, Karma
+  --> Methods used for testing revise it back again
+  --> Bazel Tool(Google) Angular 8
+  --> Updating angular apps (ng update @angular/cli @angular/core)
+  --> Converting typescript to javascript (transpiling)
+  --> Linting (ng lint)
+  --> window object
+  --> Disable the prefix ng g c <cname> --prefix=false
+  --> Optimise angular apllication
+      --> Lazy loading
+  --> AOT compilation
+  --> Zone.js Zones
+  --> Modules
+  --> Bundle tools
+      --> Webpack
+      --> Babel
+      --> Gulp
+      --> Grunt
+  --> Jasmine matchers
