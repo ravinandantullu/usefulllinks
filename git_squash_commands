@@ -1,0 +1,14 @@
+git rebase -i HEAD~10
+
+New vim edit window opens
+In the edit screen rename all the PICK commands to S
+and save as :wq!
+
+And a new window will open to merge the commit messages to single commit
+:wq!
+
+Push to the branch
+git push -f
+
+Git rebase master if you have commits from master also, so it removes the existing commits from the branch 
+Do git push after this.
